@@ -8,25 +8,10 @@ import com.puliware.watherminiproject.utils.RetainedFragmentManager;
 ;
 
 /**
- * The main Activity that prompts the user for Weather to expand via various
- * implementations of WeatherServiceSync and WeatherServiceAsync and view via
- * the results. Extends LifecycleLoggingActivity so its lifecycle hook methods
- * are logged automatically.
+ * Help/about Activity
  */
 public class HelpActivity extends LifecycleLoggingActivity {
-
-	/**
-	 * Used to retain the state between runtime configuration changes. Handles
-	 * rotations
-	 */
-	protected final RetainedFragmentManager mRetainedFragmentManager = new RetainedFragmentManager(
-			this.getFragmentManager(), TAG);
-
-	/**
-	 * Provides weather-related operations.
-	 */
-	private WeatherOps mWeatherOps;
-
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
