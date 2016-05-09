@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WeatherApplication</string>
+    <string name="action_help">About this app</string>
+    <string name="row_result_tv">Result</string>
+    <string name="result_string">Result</string>
+    <string name="refernces_string">References</string>
+    <string name="year_string">Year</string>
+    <string name="today">Today</string>
+    <string name="app_intro">\n
+        This app is a simple demo that gets current weather and daily forecast for your city. \n
+        It is a simple use case of calling external web server and use Third-Party API (from openweathermap.org service) . \n\n
+        It uses AIDL, synchronous/asynchronous calls to an external web server, also
+        JSON parsing into POJO object and some other features. \n\n
+        e.g Type Madrid, London and press "Look up sync" make a synchronous call to service, async to make an asynchronows call</string>
+</resources>
+
